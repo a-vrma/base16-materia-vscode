@@ -1,0 +1,22 @@
+{
+    "name": "theme-base16-materia",
+    "displayName": "base16-materia",
+    "description": "The base 16 materia theme.",
+    "version": "0.0.1",
+    "publisher": "aaether32323",
+    "engines": {
+        "vscode": "^1.27.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "base16-materia",
+                "uiTheme": "vs-dark",
+                "path": "./themes/base16-materia-color-theme.json"
+            }
+        ]
+    }
+}
