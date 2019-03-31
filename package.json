@@ -3,6 +3,7 @@
     "displayName": "base16-materia",
     "description": "The base 16 materia theme.",
     "version": "0.0.1",
+    "repository": "https://github.com/a-vrma/base16-materia-vscode",
     "publisher": "a-vrma",
     "engines": {
         "vscode": "^1.27.0"
