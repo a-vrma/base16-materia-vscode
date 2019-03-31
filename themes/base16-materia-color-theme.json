@@ -771,8 +771,7 @@
             "scope": [
                 "text.html.markdown meta.dummy.line-break"
             ],
-            "settings": {
-            }
+            "settings": {}
         },
         {
             "name": "Markdown - Heading",
