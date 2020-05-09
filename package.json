@@ -6,7 +6,7 @@
     "repository": "https://github.com/a-vrma/base16-materia-vscode",
     "publisher": "a-vrma",
     "engines": {
-        "vscode": "^1.27.0"
+        "vscode": "^1.44.2"
     },
     "categories": [
         "Themes"
