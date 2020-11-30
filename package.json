@@ -1,12 +1,16 @@
 {
     "name": "theme-base16-materia",
     "displayName": "base16-materia",
-    "description": "The base 16 materia theme.",
-    "version": "0.0.2",
+    "description": "A very minimal color theme for VS Code based on Base16 Materia",
+    "version": "0.2.0",
     "repository": "https://github.com/a-vrma/base16-materia-vscode",
     "publisher": "a-vrma",
+    "scripts": {
+        "copy": "cp -a ~/Sources/me/base16-colors/output/vscode/themes/base16-materia.json themes/base16-materia-color-theme.json",
+        "postcopy": "json_verify -c < themes/base16-materia-color-theme.json"
+    },
     "engines": {
-        "vscode": "^1.44.2"
+        "vscode": "^1.51.0"
     },
     "categories": [
         "Themes"
