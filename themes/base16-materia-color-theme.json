@@ -2,7 +2,7 @@
     // vim: ft=json
     // background: base00-hex
     // foreground: base05-hex
-    // string: base0b-hex
+    // string: base0B-hex
     // comment: base03-hex
     "$schema": "vscode://schemas/color-theme",
     "name": "Base 16 Materia",
@@ -29,11 +29,187 @@
     },
     "tokenColors": [
         {
-            "name": "Comment",
-            "scope": ["comment", "punctuation.definition.comment"],
+            "scope": [
+                "meta.embedded",
+                "source.groovy.embedded"
+            ],
             "settings": {
-                "fontStyle": "italic",
+                "foreground": "#CDD3DE"
+            }
+        },
+        {
+            "scope": "emphasis",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "strong",
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "header",
+            "settings": {
+                "foreground": "#89DDFF"
+            }
+        },
+        {
+            "scope": "comment",
+            "settings": {
                 "foreground": "#707880"
+            }
+        },
+        {
+            "scope": "constant.language",
+            "settings": {
+                "foreground": "#EA9560"
+            }
+        },
+        {
+            "scope": [
+                "constant.numeric",
+                "variable.other.enummember",
+                "keyword.operator.plus.exponent",
+                "keyword.operator.minus.exponent",
+                "meta.preprocessor.numeric"
+            ],
+            "settings": {
+                "foreground": "#EA9560"
+            }
+        },
+        {
+            "scope": "invalid",
+            "settings": {
+                "foreground": "#263238"
+            }
+        },
+        {
+            "scope": "markup.underline",
+            "settings": {
+                "fontStyle": "underline"
+            }
+        },
+        {
+            "scope": "markup.bold",
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "markup.heading",
+            "settings": {
+                "foreground": "#89DDFF"
+            }
+        },
+        {
+            "scope": "markup.italic",
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "scope": "markup.inserted",
+            "settings": {
+                "foreground": "#8BD649"
+            }
+        },
+        {
+            "scope": "markup.changed",
+            "settings": {
+                "foreground": "#707880"
+            }
+        },
+        {
+            "scope": "markup.deleted",
+            "settings": {
+                "foreground": "#EC5F67"
+            }
+        },
+        {
+            "scope": "meta.diff.header",
+            "settings": {
+                "foreground": "#89DDFF"
+            }
+        },
+        {
+            "scope": [
+                "meta.preprocessor",
+                "entity.name.function.preprocessor"
+            ],
+            "settings": {
+                "foreground": "#FFCC00"
+            }
+        },
+        {
+            "scope": "meta.preprocessor.string",
+            "settings": {
+                "foreground": "#8BD649"
+            }
+        },
+        {
+            "scope": "storage",
+            "settings": {
+                "foreground": "#FFCC00"
+            }
+        },
+        {
+            "scope": [
+                "string",
+                "meta.embedded.assembly",
+                "meta.preprocessor.string"
+            ],
+            "settings": {
+                "foreground": "#8BD649"
+            }
+        },
+        // {
+        //     "scope": "string.regexp",
+        //     "settings": {
+        //         "foreground": "#d16969"
+        //     }
+        // },
+        {
+            "name": "String interpolation",
+            "scope": [
+                "punctuation.definition.template-expression.begin",
+                "punctuation.definition.template-expression.end",
+                "punctuation.section.embedded"
+            ],
+            "settings": {
+                "foreground": "#CDD3DE"
+            }
+        },
+        {
+            "name": "Reset JavaScript string interpolation expression",
+            "scope": [
+                "meta.template.expression"
+            ],
+            "settings": {
+                "foreground": "#CDD3DE"
+            }
+        },
+        {
+            "scope": "keyword",
+            "settings": {
+                "foreground": "#82AAFF"
+            }
+        },
+        {
+            "scope": "keyword.operator",
+            "settings": {
+                "foreground": "#CDD3DE"
+            }
+        },
+        {
+            "name": "this.self",
+            "scope": [
+                "variable.language",
+                "variable.parameter.function"
+            ],
+            "settings": {
+                "foreground": "#EC5F67"
             }
         }
     ],
